@@ -12,9 +12,9 @@ export default function Card ({venueName, imgSrc} : {venueName : string, imgSrc 
             </div>
 
             <div className = {styles.cardText}>
-                <h3>{venueName}</h3>
-                <p>description</p>
+                <h3 className="font-[Verdana] text-[14pt] font-bold">{venueName}</h3>
+                <p  className="font-[Verdana] text-[10pt]">description</p>
             </div>
         </div>
-    )
+    );
 }

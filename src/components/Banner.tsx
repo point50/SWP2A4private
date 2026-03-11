@@ -9,8 +9,8 @@ export default function Banner () {
             fill = {true}
             objectFit="cover"/>
             <div className = {styles.bannerText}>
-                <h1>where every event finds its venue</h1>
-                <h3>description</h3>
+                <h1 className="text-center font-[Verdana] text-[24pt] font-bold">where every event finds its venue</h1>
+                <h3 className="text-center font-[Verdana] text-[18pt]" >description</h3>
             </div>
         </div>
     );
